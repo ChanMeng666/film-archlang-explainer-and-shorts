@@ -1,4 +1,4 @@
-# Audio credits — archlang-spectacle
+# Audio credits — film-archlang-explainer-and-shorts
 
 All audio below is a **real downloaded recording** from a royalty-free / CC0 library.
 Nothing here is AI-generated music, and no copyrighted commercial tracks were used.

@@ -1,7 +1,7 @@
 # ArchLang Spectacle
 
 <p align="center">
-  <img src="https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png" alt="ArchLang courtyard house: a compiled dimensioned plan beside a daylight 3D cutaway from the same .arch file" width="100%">
+  <img src="https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png" alt="ArchLang courtyard house: a compiled dimensioned plan beside a daylight 3D cutaway from the same .arch file" width="100%">
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ This repository is the **production pipeline** behind the v1.0.0 release: bright
 - Language repo: [ChanMeng666/archlang](https://github.com/ChanMeng666/archlang)
 - npm: [`@chanmeng666/archlang`](https://www.npmjs.com/package/@chanmeng666/archlang) · [`@chanmeng666/archlang-3d`](https://www.npmjs.com/package/@chanmeng666/archlang-3d)
 
-Rendered videos and stills are attached to the [v1.0.0 GitHub Release](https://github.com/ChanMeng666/archlang-spectacle/releases/tag/v1.0.0) rather than stored in git, so the repository stays small.
+Rendered videos and stills are attached to the [v1.0.0 GitHub Release](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/tag/v1.0.0) rather than stored in git, so the repository stays small.
 
 ## Gallery
 
@@ -28,19 +28,19 @@ Every frame is something ArchLang itself produced: a compiled plan, a lint revie
 
 | 16:9 | 1:1 | 9:16 |
 | :---: | :---: | :---: |
-| [![Studio 16:9](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-16x9.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-16x9.png) | [![Studio 1:1](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-1x1.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-1x1.png) | [![Studio 9:16](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-9x16.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/01-code-plan-3d-9x16.png) |
+| [![Studio 16:9](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-16x9.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-16x9.png) | [![Studio 1:1](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-1x1.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-1x1.png) | [![Studio 9:16](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-9x16.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/01-code-plan-3d-9x16.png) |
 
 ### Courtyard house — the same source as a sheet and a model
 
 | 16:9 | 1:1 | 9:16 |
 | :---: | :---: | :---: |
-| [![Courtyard 16:9](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png) | [![Courtyard 1:1](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-1x1.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-1x1.png) | [![Courtyard 9:16](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-9x16.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/02-courtyard-plan-3d-9x16.png) |
+| [![Courtyard 16:9](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-16x9.png) | [![Courtyard 1:1](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-1x1.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-1x1.png) | [![Courtyard 9:16](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-9x16.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/02-courtyard-plan-3d-9x16.png) |
 
 ### Lint catches a missing window — then the fix compiles clean
 
 | 16:9 | 1:1 | 9:16 |
 | :---: | :---: | :---: |
-| [![Lint 16:9](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-16x9.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-16x9.png) | [![Lint 1:1](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-1x1.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-1x1.png) | [![Lint 9:16](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-9x16.png)](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/03-lint-fix-9x16.png) |
+| [![Lint 16:9](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-16x9.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-16x9.png) | [![Lint 1:1](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-1x1.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-1x1.png) | [![Lint 9:16](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-9x16.png)](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/03-lint-fix-9x16.png) |
 
 ## Videos
 
@@ -48,10 +48,10 @@ Shipped at 24 fps with a stereo score at about −16 LUFS. Full chapter list: [`
 
 | File | Length | Format | What it shows |
 |---|---|---|---|
-| [explainer-1080p.mp4](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/explainer-1080p.mp4) | 91s | 1920×1080 | The full walkthrough: hook → write `.arch` → compile → themes → describe → lint → fix → parametric `COUNT` → walls rising → export → MCP → end card |
-| [wow-cutdown-1080p.mp4](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/wow-cutdown-1080p.mp4) | 27s | 1920×1080 | Hook, compile-with-connectors, 3D rise, end card |
-| [agent-cutdown-1080p.mp4](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/agent-cutdown-1080p.mp4) | 28.5s | 1920×1080 | Describe, lint, fix, agent prompt → tool calls → drawing |
-| [vertical-9x16.mp4](https://github.com/ChanMeng666/archlang-spectacle/releases/download/v1.0.0/vertical-9x16.mp4) | 25s | 1080×1920 | Vertical cutdown of hook, compile, 3D rise, and end card |
+| [explainer-1080p.mp4](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/explainer-1080p.mp4) | 91s | 1920×1080 | The full walkthrough: hook → write `.arch` → compile → themes → describe → lint → fix → parametric `COUNT` → walls rising → export → MCP → end card |
+| [wow-cutdown-1080p.mp4](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/wow-cutdown-1080p.mp4) | 27s | 1920×1080 | Hook, compile-with-connectors, 3D rise, end card |
+| [agent-cutdown-1080p.mp4](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/agent-cutdown-1080p.mp4) | 28.5s | 1920×1080 | Describe, lint, fix, agent prompt → tool calls → drawing |
+| [vertical-9x16.mp4](https://github.com/ChanMeng666/film-archlang-explainer-and-shorts/releases/download/v1.0.0/vertical-9x16.mp4) | 25s | 1080×1920 | Vertical cutdown of hook, compile, 3D rise, and end card |
 
 ## Pipeline
 
@@ -118,7 +118,7 @@ Outputs land in `output/v5/videos/` and `output/v5/stills/`.
 ## Layout
 
 ```
-archlang-spectacle/
+film-archlang-explainer-and-shorts/
   README.md                 # this file
   LICENSE                   # MIT (code)
   Makefile / generate.sh    # Blender spectacle entry points

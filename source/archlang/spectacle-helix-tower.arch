@@ -1,0 +1,48 @@
+# Spectacle program — Helix Tower (stacked storeys as code)
+# One unit component, placed on successive levels with a rotation offset.
+# The "impossible" reading is a spiral residence that still compiles to
+# honest storey sheets — the wonder is the parametric authoring, not a lie.
+plan "Spectacle — Helix Tower" {
+  units mm
+  grid 50
+  scale 1:100
+  north up
+
+  theme from "#8052ff"
+
+  let W = 9000
+  let D = 7000
+  let LEVELS = 6
+
+  component suite(w, d, label) {
+    wall exterior thickness 200 { (0,0) (w,0) (w,d) (0,d) close }
+    wall partition thickness 100 { (w*0.55, 0) (w*0.55, d) }
+    room at (0,0) size (w*0.55) x d label "{label} Live" uses living
+    room at (w*0.55, 0) size (w*0.45) x (d*0.55) label "{label} Bed" uses bedroom
+    room at (w*0.55, d*0.55) size (w*0.45) x (d*0.45) label "{label} Bath" uses bath
+    door at (w*0.28, d) width 900 wall exterior hinge left swing in
+    door at (w*0.55, d*0.28) width 800 wall partition hinge right swing out
+    door at (w*0.55, d*0.55) width 700 wall partition hinge left swing out
+    window at (0, d*0.4) width 1800 wall exterior
+    window at (w, d*0.35) width 1400 wall exterior
+    furniture bed against room.right size 1500x2000
+    furniture sofa at (400, 400) size 2200x900
+  }
+
+  for i in 0..LEVELS {
+    level L{i+1} {
+      # Offsets spiral the suite around a shared core void
+      let ox = (i % 2) * 1500
+      let oy = ((i / 2) % 2) * 1200
+      place suite(W, D, "L{i+1}") at (ox, oy)
+      # Shared stair shaft id across levels
+      stair id=st dir up width 1100 { flight (W*0.5 + ox, D*0.5 + oy) rise 2800 }
+    }
+  }
+
+  title {
+    project "Helix Tower"
+    drawn_by "ArchLang"
+    date "2026-11-06"
+  }
+}

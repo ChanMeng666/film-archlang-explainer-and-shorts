@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"  viewBox="-7979.2 -6934 54913.2 64320" font-family="Helvetica, Arial, sans-serif">
+<defs><pattern id="poche" patternUnits="userSpaceOnUse" width="522.6" height="522.6" patternTransform="rotate(45)"><rect width="522.6" height="522.6" fill="#e8e4f1"/><line x1="0" y1="0" x2="0" y2="522.6" stroke="#a590df" stroke-width="45.02"/></pattern></defs>
+<rect x="-7979.2" y="-6934" width="54913.2" height="64320" fill="#ffffff"/>
+<g id="A-FLOR" inkscape:groupmode="layer" inkscape:label="A-FLOR">
+<polygon points="0,0 40000,0 40000,40000 0,40000" fill="#fbfaf7"/>
+<polygon points="3500,3500 36500,3500 36500,36500 3500,36500" fill="#fbfaf7"/>
+</g>
+<g id="A-WALL" inkscape:groupmode="layer" inkscape:label="A-WALL">
+<path d="M -100,-100 L 40100,-100 L 40100,40100 L -100,40100 Z M 100,100 L 100,39900 L 39900,39900 L 39900,100 Z" fill="url(#poche)" fill-rule="nonzero"/>
+<path d="M -100,-100 L 40100,-100 L 40100,40100 L -100,40100 Z M 100,100 L 100,39900 L 39900,39900 L 39900,100 Z" fill="none" stroke="#8052ff" stroke-width="112.56" stroke-linejoin="miter" stroke-miterlimit="4"/>
+</g>
+<g id="A-ANNO-TEXT" inkscape:groupmode="layer" inkscape:label="A-ANNO-TEXT">
+<text x="20000" y="19758.8" font-size="1206" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Plaza</text>
+<text x="20000" y="21085.4" font-size="884.4" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">1600.0 m²</text>
+<text x="20000" y="14808.8" font-size="1206" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Sanctum</text>
+<text x="20000" y="16135.4" font-size="884.4" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">1089.0 m²</text>
+</g>
+<g id="A-ANNO-DIMS" inkscape:groupmode="layer" inkscape:label="A-ANNO-DIMS">
+<line x1="-100" y1="40100" x2="-100" y2="44602.4" stroke="#0E5484" stroke-width="45.02"/>
+<line x1="40100" y1="40100" x2="40100" y2="44602.4" stroke="#0E5484" stroke-width="45.02"/>
+<line x1="-100" y1="44602.4" x2="40100" y2="44602.4" stroke="#0E5484" stroke-width="64.32"/>
+<line x1="241.11" y1="44943.51" x2="-441.11" y2="44261.29" stroke="#0E5484" stroke-width="64.32"/>
+<line x1="40441.11" y1="44943.51" x2="39758.89" y2="44261.29" stroke="#0E5484" stroke-width="64.32"/>
+<text x="20000" y="45165.2" font-size="804" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 20000 45165.2)">40200</text>
+<line x1="-100" y1="-100" x2="-4602.4" y2="-100" stroke="#0E5484" stroke-width="45.02"/>
+<line x1="-100" y1="40100" x2="-4602.4" y2="40100" stroke="#0E5484" stroke-width="45.02"/>
+<line x1="-4602.4" y1="-100" x2="-4602.4" y2="40100" stroke="#0E5484" stroke-width="64.32"/>
+<line x1="-4943.51" y1="241.11" x2="-4261.29" y2="-441.11" stroke="#0E5484" stroke-width="64.32"/>
+<line x1="-4943.51" y1="40441.11" x2="-4261.29" y2="39758.89" stroke="#0E5484" stroke-width="64.32"/>
+<text x="-5165.2" y="20000" font-size="804" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(90 -5165.2 20000)">40200</text>
+</g>
+<g><polygon points="38291,-5667.7 37386.5,-2773.3 38291,-3406.45 39195.5,-2773.3" fill="#333333" transform="rotate(0 38291 -3858.7)"/><text x="38291" y="-6503.86" font-size="1045.2" fill="#333333" text-anchor="middle" dominant-baseline="central">N</text></g>
+<g><rect x="-100" y="47979.2" width="5000" height="562.8" fill="#333333"/><rect x="4900" y="47979.2" width="5000" height="562.8" fill="none" stroke="#333333" stroke-width="64.32"/><text x="-100" y="49346" font-size="804" fill="#333333" text-anchor="start" dominant-baseline="central">0</text><text x="9900" y="49346" font-size="804" fill="#333333" text-anchor="middle" dominant-baseline="central">10 m</text></g>
+<g><rect x="26432" y="47979.2" width="13668" height="7396.8" fill="none" stroke="#333333" stroke-width="64.32"/><text x="27115.4" y="48903.8" font-size="611.04" fill="#888888" dominant-baseline="central">PROJECT</text><text x="39416.6" y="48903.8" font-size="763.8" fill="#333333" text-anchor="end" dominant-baseline="central">Recursive Courtyard · DEPTH={DEPTH}</text><text x="27115.4" y="50753" font-size="611.04" fill="#888888" dominant-baseline="central">DRAWN BY</text><text x="39416.6" y="50753" font-size="763.8" fill="#333333" text-anchor="end" dominant-baseline="central">ArchLang</text><line x1="26432" y1="49828.4" x2="40100" y2="49828.4" stroke="#333333" stroke-width="32.16"/><text x="27115.4" y="52602.2" font-size="611.04" fill="#888888" dominant-baseline="central">DATE</text><text x="39416.6" y="52602.2" font-size="763.8" fill="#333333" text-anchor="end" dominant-baseline="central">2026-11-06</text><line x1="26432" y1="51677.6" x2="40100" y2="51677.6" stroke="#333333" stroke-width="32.16"/><text x="27115.4" y="54451.4" font-size="611.04" fill="#888888" dominant-baseline="central">SCALE</text><text x="39416.6" y="54451.4" font-size="763.8" fill="#333333" text-anchor="end" dominant-baseline="central">1:200</text><line x1="26432" y1="53526.8" x2="40100" y2="53526.8" stroke="#333333" stroke-width="32.16"/></g>
+</svg>

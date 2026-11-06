@@ -1,0 +1,41 @@
+# Spectacle — Recursive Courtyard DEPTH=2
+# Parametric nested galleries. DEPTH is the viral dial.
+plan "Spectacle — Courtyard D2" {
+  units mm
+  grid 50
+  scale 1:200
+  north up
+  dims auto overall
+  theme from "#8052ff"
+
+  let WALL = 200
+  let DEPTH = 2
+  let BASE = 40000
+
+  wall id=shell exterior thickness WALL {
+    (0, 0) (BASE, 0) (BASE, BASE) (0, BASE) close
+  }
+  room id=r_plaza at (0, 0) size BASE x BASE label "Plaza" uses living
+
+  for i in 1..DEPTH {
+    let inset = i * 3500
+    let span  = BASE - 2 * inset
+    # Four gallery bands as rooms (visual rings on the sheet)
+    room at (inset, inset) size span x 2800 label "N{i}"
+    room at (inset, BASE - inset - 2800) size span x 2800 label "S{i}"
+    room at (inset, inset + 2800) size 2800 x (span - 5600) label "W{i}"
+    room at (BASE - inset - 2800, inset + 2800) size 2800 x (span - 5600) label "E{i}"
+  }
+
+  let core = DEPTH * 3500
+  let cspan = BASE - 2 * core
+  if cspan > 4000 {
+    room id=r_core at (core, core) size cspan x cspan label "Sanctum" uses living
+  }
+
+  title {
+    project "Recursive Courtyard · DEPTH={DEPTH}"
+    drawn_by "ArchLang"
+    date "2026-11-06"
+  }
+}

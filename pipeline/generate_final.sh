@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+BLENDER="${BLENDER:-blender}"
+mkdir -p "$ROOT/output/images/final" "$ROOT/output/videos/final" "$ROOT/output/previews/final"
+
+echo "==> FINAL stills 01"
+"$BLENDER" --background --python "$ROOT/source/blender/01_code_to_form_final.py"
+echo "==> FINAL stills 02"
+"$BLENDER" --background --python "$ROOT/source/blender/02_recursive_courtyard_final.py"
+echo "==> FINAL stills 03"
+"$BLENDER" --background --python "$ROOT/source/blender/03_aframe_monument_final.py"
+echo "==> FINAL assemble 24fps frames"
+"$BLENDER" --background --python "$ROOT/source/blender/04_assemble_video_final.py"
+echo "==> FINAL courtyard grow 24fps frames"
+"$BLENDER" --background --python "$ROOT/source/blender/05_courtyard_grow_final.py"
+echo "==> Score + package"
+"$ROOT/pipeline/score_final.sh"
+echo "FINAL PACKAGE READY"
+ls -lah "$ROOT/output/images/final" "$ROOT/output/videos/final" "$ROOT/output/previews/final"

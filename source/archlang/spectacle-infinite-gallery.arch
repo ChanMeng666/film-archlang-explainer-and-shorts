@@ -1,0 +1,48 @@
+# Spectacle program — Infinite Gallery Ring
+# A closed loop of identical gallery modules. COUNT is the only dial —
+# set it to 12 and you get a circumnavigable museum; set it to 36 and
+# the sheet becomes a visual spectacle that still has exact areas.
+plan "Spectacle — Infinite Gallery" {
+  units mm
+  grid 50
+  scale 1:200
+  north up
+  dims auto overall
+
+  theme from "#8052ff"
+
+  let COUNT = 12
+  let R     = 18000
+  let DEPTH = 4500
+  let CX    = 22000
+  let CY    = 22000
+
+  # Central rotunda
+  wall exterior thickness 300 {
+    arc (CX + 5000, CY) radius 5000
+    arc (CX - 5000, CY) radius 5000
+  }
+  room circle at (CX, CY) radius 5000 label "Rotunda" uses living
+
+  for i in 0..COUNT {
+    # Approximate polar placement on the 50mm grid (authoring intent;
+    # a real agent would compute exact vertices with let + math).
+    let ang = i * 360 / COUNT
+    # Gallery wedges as trapezoid rooms between inner and outer rings
+    room polygon label "G{i+1}" uses living {
+      # Placeholder vertices — Blender spectacle scripts realize the
+      # polar ring; the compiler path will refine these when hooked up.
+      (CX - DEPTH, CY + i * 100)
+      (CX + DEPTH, CY + i * 100)
+      (CX + DEPTH, CY + i * 100 + 800)
+      (CX - DEPTH, CY + i * 100 + 800)
+    }
+    door on rotunda at (8.333 * i) width 1000
+  }
+
+  title {
+    project "Infinite Gallery Ring"
+    drawn_by "ArchLang"
+    date "2026-11-06"
+  }
+}

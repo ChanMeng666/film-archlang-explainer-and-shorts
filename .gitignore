@@ -1,0 +1,37 @@
+# Rendered output, frames, and intermediates
+output/
+**/intermediates/
+**/frames/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies and local env
+node_modules/
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# Large unused downloads and binaries
+source/audio/raw/
+*.wav
+*.blend1
+*.blend2
+
+# Internal working notes (not for the public tree)
+_research/marketing/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.cursor/
+
+# Scratch
+*.bundle
+/tmp/
